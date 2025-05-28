@@ -43,4 +43,4 @@ Three representative test cases were used:
 - Execution Accuracy: 100%
 The model performed accurately across all test cases. Cleaning the output was crucial to ensure the predictions were in a proper executable format.
 6. Conclusion
-The `tscholak/cxmefzzi` NL2SQL model shows strong performance on structured queries for simple database schemas. With some preprocessing and output formatting, the model can be reliably used for semantic SQL generation.
+The `tscholak/cxmefzzi` NL2SQL model shows strong performance on structured queries for simple database schemas. With some preprocessing and output formatting, the model can be reliably used for semantic SQL generation..
