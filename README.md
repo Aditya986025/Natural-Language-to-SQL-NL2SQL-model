@@ -2,7 +2,7 @@
 This project evaluates a Natural Language to SQL (NL2SQL) model using the transformer model `tscholak/cxmefzzi` from Hugging Face. The aim is to determine how accurately the model can translate natural language questions into executable SQL queries based on a given schema.... 
 
 
-Step 1 : 
+Step 1 : --->
 ![Screenshot 2025-05-23 121519](https://github.com/user-attachments/assets/a1aed44f-ede2-4d57-b51d-e1c0414ac0c6)
 
 
