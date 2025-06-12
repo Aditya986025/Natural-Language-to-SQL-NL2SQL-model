@@ -18,7 +18,7 @@ Final Result :
 ![Screenshot 2025-05-23 121607](https://github.com/user-attachments/assets/a2c149d5-ee9d-4095-b0eb-3b78ccbdb703)
 
 
-2. Approach
+2. Approach for Normal text to SLQ query. 
 The evaluation followed these steps:
 - Loaded the pretrained tokenizer and model.
 - Serialized input as: '<natural language query> | <db_id> | <schema>'.
