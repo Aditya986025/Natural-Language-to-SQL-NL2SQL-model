@@ -19,7 +19,7 @@ Final Result :
 
 
 2. Approach for Normal text to SLQ query. 
-The evaluation followed these steps:
+The evaluation followed these steps:- 
 - Loaded the pretrained tokenizer and model.
 - Serialized input as: '<natural language query> | <db_id> | <schema>'.
 - Used an in-memory SQLite database with a table `customers`.
@@ -39,7 +39,7 @@ Three representative test cases were used:
 3. NL: How many customers live in Mumbai?
    - Expected: SELECT COUNT(*) FROM customers WHERE city = 'mumbai';
    - Predicted: SELECT COUNT(*) FROM customers WHERE city = 'mumbai';
-5. Results :-
+5. Results for the Accuracy :-
 - Exact Match Accuracy: 100%
 - Execution Accuracy: 100%
 The model performed accurately across all test cases. Cleaning the output was crucial to ensure the predictions were in a proper executable format.
