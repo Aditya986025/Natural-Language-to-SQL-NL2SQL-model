@@ -28,8 +28,8 @@ The evaluation followed these steps:-
 3. Evaluation Metrics
 - Exact Match Accuracy: Checks if the predicted SQL exactly matches the expected SQL.
 - Execution Accuracy: Compares the result of executing both SQLs to verify equivalence.
-4. Sample Test Cases :
-Three representative test cases were used:
+4. Sample Test Cases for given text :
+Three representative test cases were used -:
 1. NL: What is the total number of customers from New York?
    - Expected: SELECT COUNT(*) FROM customers WHERE city = 'new york';
    - Predicted: SELECT COUNT(*) FROM customers WHERE city = 'new york';
