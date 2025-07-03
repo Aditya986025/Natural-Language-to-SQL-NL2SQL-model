@@ -29,14 +29,14 @@ The evaluation followed these steps:-
 - Exact Match Accuracy: Checks if the predicted SQL exactly matches the expected SQL.
 - Execution Accuracy: Compares the result of executing both SQLs to verify equivalence.
 4. Sample Test Cases for given text :
-Three representative test cases were used -:
+Three representative test cases were used -:::
 1. NL: What is the total number of customers from New York?
    - Expected: SELECT COUNT(*) FROM customers WHERE city = 'new york';
    - Predicted: SELECT COUNT(*) FROM customers WHERE city = 'new york';
 2. NL: List the names of customers older than 30.
    - Expected: SELECT name FROM customers WHERE age > 30;
    - Predicted: SELECT name FROM customers WHERE age > 30;
-3. NL: How many customers live in Mumbai?
+3. NL: How many customers live in Mumbai OVER?
    - Expected: SELECT COUNT(*) FROM customers WHERE city = 'mumbai';
    - Predicted: SELECT COUNT(*) FROM customers WHERE city = 'mumbai';
 5. Results for the Accuracy :-
