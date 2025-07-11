@@ -46,4 +46,4 @@ The model performed accurately across all test cases. Cleaning the output was cr
 6. Conclusion
 The `tscholak/cxmefzzi` NL2SQL model shows strong performance on structured queries for simple database schemas. With some preprocessing and output formatting, the model can be reliably used for semantic SQL generation..
 
-finally done
+finally project done.
