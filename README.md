@@ -19,7 +19,7 @@ Final Result :
 
 
 2. Approach for Normal text to SLQ query. 
-The evaluation followed these steps:- 
+The evaluation followed these steps for this model:- 
 - Loaded the pretrained tokenizer and model.
 - Serialized input as: '<natural language query> | <db_id> | <schema>'.
 - Used an in-memory SQLite database with a table `customers`.
