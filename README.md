@@ -1,5 +1,5 @@
 # Natural-Language-to-SQL-NL2SQL-model
-This project evaluates a Natural Language to SQL (NL2SQL) model using the transformer model `tscholak/cxmefzzi` from Hugging Face. The aim is to determine how accurately the model can translate natural language questions into executable SQL queries based on a given schema..... 
+This project evaluates a Natural Language to SQL (NL2SQL) model using the transformer model `tscholak/cxmefzzi` from Hugging Face. The aim is to determine how accurately the model can translate natural language questions into executable SQL queries based on a given schema. 
 
 
 Step 1 : --->
@@ -25,7 +25,7 @@ The evaluation followed these steps for this model:-
 - Used an in-memory SQLite database with a table `customers`.
 - Inserted sample customer records including cities such as New York and Mumbai.
 - Cleaned the model output by removing irrelevant prefixes (e.g., 'customers_db |').
-3. Evaluation Metrics
+3. Evaluation Metrics for the SQL - NL2SQL
 - Exact Match Accuracy: Checks if the predicted SQL exactly matches the expected SQL.
 - Execution Accuracy: Compares the result of executing both SQLs to verify equivalence.
 4. Sample Test Cases for given text :
