@@ -21,6 +21,7 @@ Final Result :
 2. Approach for Normal text to SLQ query. 
 The evaluation followed these steps for this model:- 
 - Loaded the pretrained tokenizer and model.
+- Each tokens are divided into multiple single words and multiple tokens so we can analys this tokens with the help of tokenizer methods and model .
 - Serialized input as: '<natural language query> | <db_id> | <schema>'.
 - Used an in-memory SQLite database with a table `customers`.
 - Inserted sample customer records including cities such as New York and Mumbai.
