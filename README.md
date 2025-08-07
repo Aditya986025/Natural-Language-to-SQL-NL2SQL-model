@@ -2,6 +2,7 @@
 This project evaluates a Natural Language to SQL (NL2SQL) model using the transformer model `tscholak/cxmefzzi` from Hugging Face. The aim is to determine how accurately the model can translate natural language questions into executable SQL queries based on a given schema. 
 Large Language Models (LLMs) can be used to convert natural language queries into SQL queries through a process known as Natural Language to SQL (NL2SQL) or Text-to-SQL. This enables non-technical users to interact with databases using plain language, eliminating the need for SQL expertise.
 
+Natural Language to SQL (NL2SQL) is a field of AI that focuses on converting human language questions into accurate SQL queries. It allows users, even without technical knowledge, to interact with databases using simple natural language. By leveraging advanced NLP techniques and transformer-based models (like T5, BART, or SQLCoder), NL2SQL systems can understand the user's intent and generate syntactically correct and executable SQL statements. These models are typically trained on datasets like Spider or WikiSQL, which contain pairs of questions and corresponding SQL queries. NL2SQL has significant applications in business intelligence, data analytics platforms, and chatbot systems, enabling intuitive and efficient data access.
 Step 1 : --->
 ![Screenshot 2025-05-23 121519](https://github.com/user-attachments/assets/a1aed44f-ede2-4d57-b51d-e1c0414ac0c6)
 
