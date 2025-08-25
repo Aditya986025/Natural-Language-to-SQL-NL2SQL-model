@@ -19,7 +19,7 @@ Final Result :
 ![Screenshot 2025-05-23 121607](https://github.com/user-attachments/assets/a2c149d5-ee9d-4095-b0eb-3b78ccbdb703)
 
 
-2. Approach for Normal text to SLQ query. 
+2. Approach for Normal text to SQL query. 
 The evaluation followed these steps for this model:- 
 - Loaded the pretrained tokenizer and model.
 - Each tokens are divided into multiple single words and multiple tokens so we can analys this tokens with the help of tokenizer methods and model .
